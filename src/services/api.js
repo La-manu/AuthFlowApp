@@ -2,7 +2,7 @@ import axios from 'axios';
 import { authService } from './authService';
 
 const api = axios.create({
-  baseURL: 'https://api-mock-placeholder.com', // URL fictícia
+  baseURL: 'https://api-mock-placeholder.com',
 });
 
 api.interceptors.request.use(
